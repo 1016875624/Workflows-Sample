@@ -1,11 +1,11 @@
 name: Get Epic Game
 
-on:
-  schedule: # 删除本行开头的 # 号
-    - cron: "31 21 * * *" # 删除本行开头的 # 号
-  push:
-    branches:
-      - master
+#on:
+  #schedule: # 删除本行开头的 # 号
+    #- cron: "31 21 * * *" # 删除本行开头的 # 号
+  #push:
+    #branches:
+     # - master
 
 jobs:
   MainWork:
